@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>corpDIR</title>
+  </head>
+  <body>
+    <h3>Corporate Directory</h3>
+	<form action="file:///C:/Users/RIPPATE/Desktop/formdata.html">
+    <label for="fname">Full Name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+	<label for="flocation">Location:</label>
+    <input type="text" id="flocation" name="flocation"><br><br>
+	 <label for="fjob">Job Title:</label>
+    <input type="text" id="fjob" name="fjob"><br><br>
+	
+	 <input type="checkbox" id="Mac" name="Mac" value="Mac">
+     <label for="vehicle1">Mac User</label><br>
+     <input type="checkbox" id="windows" name="windows" value="windows">
+     <label for="vehicle2">Windows User</label><br>
+     <input type="checkbox" id="linux" name="linux" value="linux">
+     <label for="vehicle3">Linux User</label><br>
+	 <input type="checkbox" id="empmonth" name="empmonth" value="empmonth">
+     <label for="vehicle3">Employee of the Month</label><br>
+	 <input type="checkbox" id="coffeeuser" name="coffeeuser" value="coffeeuser">
+     <label for="vehicle3">Coffee Snob</label><br>
+	 <input type="checkbox" id="gamer" name="gamer" value="gamer">
+     <label for="vehicle3">Gamer</label><br>
+	 <input type="file" id="myFile" name="filename"><br><br>
+	 <button type="submit" value="Submit" onclick="GetData();">Save</button>
+	 </form>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script>
+  function GetData()
+  {
+  var name=document.getElementById("fname").value;
+  localStorage.setItem("fullname",name);
+  var obj={};
+  obj.name=ocument.getElementById("fname").value
+ obje.game
+  }
+  </script>
+  </body>
+</html>
